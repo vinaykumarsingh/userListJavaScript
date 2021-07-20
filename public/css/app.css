@@ -1,0 +1,27 @@
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+li span {
+    padding: 20px;
+    min-width: 200px;
+}
+li img {
+    width: 41px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+.hide {
+    display: none;
+}
+.disabledButton {
+    pointer-events:none;
+    color: #fff;
+    background-color: #ccc;
+    border-color: #000;
+}
+.container h1{
+    color: red;
+}
